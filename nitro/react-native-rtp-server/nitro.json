@@ -1,0 +1,19 @@
+{
+  "cxxNamespace": ["rtpserver"],
+  "ios": {
+    "iosModuleName": "RtpServer"
+  },
+  "android": {
+    "androidNamespace": ["rtpserver"],
+    "androidCxxLibName": "rtpserver"
+  },
+  "autolinking": {
+    "RtpServer": {
+      "all": {
+        "language": "c++",
+        "implementationClassName": "HybridRtpServer"
+      }
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}

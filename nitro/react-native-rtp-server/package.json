@@ -1,0 +1,25 @@
+{
+  "name": "react-native-rtp-server",
+  "version": "0.0.0",
+  "description": "rtp server",
+  "main": "src/index",
+  "codegenConfig": {
+    "name": "RtpServerSpec",
+    "type": "modules",
+    "jsSrcsDir": "src"
+  },
+  "author": "drizlye0 <danielkastillo03@gmail.com> (https://github.com/drizlye0)",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/drizlye0/react-native-rtp-server#readme",
+  "create-react-native-library": {
+    "type": "nitro-module",
+    "languages": "kotlin-swift",
+    "tools": [
+      "eslint",
+      "jest",
+      "lefthook",
+      "release-it"
+    ],
+    "version": "0.57.2"
+  }
+}

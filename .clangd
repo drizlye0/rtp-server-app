@@ -1,0 +1,5 @@
+If:
+  PathMatch: nitro/react-native-rtp-server/.*
+
+CompileFlags:
+  CompilationDatabase: nitro/react-native-rtp-server/android/.cxx/tools/debug/x86_64
