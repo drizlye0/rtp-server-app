@@ -21,5 +21,8 @@
       "release-it"
     ],
     "version": "0.57.2"
+  },
+  "peerDependencies": {
+    "react-native-nitro-modules": "^0.35.2"
   }
 }

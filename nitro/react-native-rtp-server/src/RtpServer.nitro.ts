@@ -12,6 +12,7 @@ export interface RtpServer extends HybridObject<{
   printHelloWorld(): void;
   sendFrame(frame: EncodedFrame): void;
   start(config: RtpServerConfig): boolean;
+  testSend(): void;
   stop(): void;
 }
 

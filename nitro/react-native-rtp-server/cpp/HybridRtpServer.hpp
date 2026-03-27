@@ -5,7 +5,7 @@
 #include <uvgrtp/lib.hh>
 
 constexpr char REMOTE_ADDRESS[] = "10.0.2.2";
-constexpr uint16_t REMOTE_PORT = 8000;
+constexpr uint16_t REMOTE_PORT = 8080;
 
 constexpr size_t PAYLOAD_LEN = 100;
 constexpr int AMOUNT_OF_TEST_PACKETS = 100;
@@ -21,6 +21,7 @@ public:
   void sendFrame(const EncodedFrame& frame) override;
   bool start(const RtpServerConfig& config) override;
   void stop() override;
+  void testSend() override;
 
 private:
   uvgrtp::context _ctx;
